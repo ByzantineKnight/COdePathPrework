@@ -64,12 +64,12 @@ Beyond some code cleanup and refactoring, I noticed a bug that happens when you 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording] https://www.loom.com/share/a50c79ca316e47008bbb3d8dbd23d840
 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Lucas Ribeiro Vidal
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
