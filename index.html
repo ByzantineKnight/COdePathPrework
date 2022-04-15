@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+       Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome welcome! This is the Light and Sound Memory Game! Repeat the pattern to win, you have 10 seconds for each round.
+      <br>
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <h1 id="time"></h1>
+      
+      <div id="gameButtonArea">
+        <button class="coloredButton" id="button1" onmousedown="startTone(1); displayImg(1)" onmouseup="stopTone(); hideImg(1)" onclick="guess(1)">
+          <img id="img1" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/250px-387Turtwig.png?1649859789290" class="hidden" alt="Turtwig"  width="100" height="100">
+        </button>
+        <button class="coloredButton" id="button2" onmousedown="startTone(2); displayImg(2)" onmouseup="stopTone(); hideImg(2)" onclick="guess(2)">
+          <img id="img2" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/thumbnails%2F790-7907540_squirtle-vector-at-getdrawings-squirtle.png?1649859824768" class="hidden" alt="Squirtle" width="100" height="100">
+        </button>
+        <button class="coloredButton" id="button3" onmousedown="startTone(3); displayImg(3)" onmouseup="stopTone(); hideImg(3)" onclick="guess(3)">
+          <img id="img3" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/thumbnails%2Foriginal.png?1649864603830" class="hidden" alt="Clefairy" width="100" height="100">
+        </button>
+        <button class="coloredButton" id="button4" onmousedown="startTone(4); displayImg(4)" onmouseup="stopTone(); hideImg(4)" onclick="guess(4)">
+          <img id="img4" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/thumbnails%2Fkindpng_5984318.png?1649865570862" class="hidden" alt="Pikachu" width="100" height="100">
+        </button>
+        <button class="coloredButton" id="button5" onmousedown="startTone(5); displayImg(5)" onmouseup="stopTone(); hideImg(5)" onclick="guess(5)">
+          <img id="img5" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/thumbnails%2FGengar.webp?1649859888942" class="hidden" alt="Genghar" width="100" height="100">        
+        </button>
+        <button class="coloredButton" id="button6" onmousedown="startTone(6); displayImg(6)" onmouseup="stopTone(); hideImg(6)" onclick="guess(6)">
+          <img id="img6" src="https://cdn.glitch.global/479b8ff7-742f-48e1-ad08-37c24b14b1a5/thumbnails%2FPokemon-Charmander-PNG-Pic.png?1649859852726" class="hidden" alt="Charmander" width="100" height="100">                
+        </button>
+      </div>
+    </p>
+  </body>
+</html>
